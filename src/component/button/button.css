@@ -1,0 +1,16 @@
+button {
+    background-color: var(--contrast-popular);
+    color: var(--background);
+    border: none;
+    padding: 15px 28px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 32px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--contrast-default);
+}

@@ -1,37 +1,29 @@
-.container {
+.card-list {
     display: flex;
-    height: 100px;
-    gap: 25px;
+    align-items: center;
+    gap: 30px 25px;
+    flex-wrap: wrap;
 }
 
-.cardList {
-    margin: 30px;
+.card-list span {
+    font-size: 3rem;
+    color: var(--font-count);
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
-
-img {
-    height: 100%;
+.card-list .title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 10px 0;
 }
 
-span {
-    font-size: 25px;
-    color: rgb(208, 208, 208);
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 13px;
-    font-weight: 900;
-    padding: 8px 0;
-}
-
-h2:hover{
+.card-list .title:hover{
     cursor: pointer;
-    color: rgb(255, 132, 0);
+    color: var(--contrast-popular);
 }
 
-p {
-    font-size: 12px;
-    color: rgb(208, 208, 208);
-    line-height: 20px;
+.card-list .description {
+    color: var(--font-default);
+    line-height: 25px;
 }

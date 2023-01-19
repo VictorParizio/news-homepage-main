@@ -1,0 +1,22 @@
+.banner {
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    margin: 34px 0;
+}
+
+.container .title {
+    font-size: 5.6rem;
+    font-weight: 800;
+    color: var(--contrast-default);
+    width: 350px;
+    line-height: 56px;
+}
+
+.container .description {
+    width: 350px;
+    color: var(--font-default);
+    line-height: 24px;
+}

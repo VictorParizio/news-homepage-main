@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+:root {
+    --background: hsl(36, 100%, 99%);
+
+    --font-count: hsl(233, 8%, 79%);
+    --font-default: hsl(236, 13%, 42%);
+
+    --contrast-new: hsl(35, 77%, 62%);
+    --contrast-popular: hsl(5, 85%, 63%);
+    --contrast-default: hsl(240, 100%, 5%);
+}

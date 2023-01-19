@@ -1,10 +1,13 @@
 import './App.css';
+import Banner from './component/banner/banner';
+import Cards from './component/cards/cards'
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Banner />
+      <Cards />
+    </>
   );
 }
 

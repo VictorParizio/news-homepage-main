@@ -9,41 +9,41 @@ const postList = [
     {
         id: "01",
         img: pcRetro,
+        alt: 'PC retro',
         title: "Reviving Retro PCs",
-        text: "What happens when old PCs are given modern upgrades?"
+        description: "What happens when old PCs are given modern upgrades?"
     },
     {
         id: "02",
         img: topLaptops,
+        alt: 'teclado',
         title: "Top 10 Laptops of 2022",
-        text: "Our best picks for various needs and budgets."
+        description: "Our best picks for various needs and budgets."
     },
     {
         id: "03",
         img: gamingGrowth,
+        alt: 'joystick',
         title: "The Growth of Gaming",
-        text: "How the pandemic has sparked frech opportunities"
+        description: "How the pandemic has sparked frech opportunities"
     }
 ]
 
 const Cards = () => {
     return (
-        <div className='cardList'>
-            <h1>Meus cards</h1>
-            <div className="container">
-                {postList.map((post, index) => {
-                    return (
-                        <Card key={index}>
-                            <img src={post.img}></img>
-                            <div>
-                                <span>{post.id}</span>
-                                <h2>{post.title}</h2>
-                                <p>{post.text}</p>
-                            </div>
-                        </Card>
-                    )
-                })}
-            </div>
+        <div className="card-list">
+            {postList.map((post, index) => {
+                return (
+                    <Card key={index}>
+                        <img src={post.img} alt={post.alt} />
+                        <div>
+                            <span>{post.id}</span>
+                            <a><h2 className='title'>{post.title}</h2></a>
+                            <p className='description'>{post.description}</p>
+                        </div>
+                    </Card>
+                )
+            })}
         </div>
     )
 }
