@@ -38,7 +38,7 @@ const Cards = () => {
                         <img src={post.img} alt={post.alt} />
                         <div>
                             <span>{post.id}</span>
-                            <a><h2 className='title'>{post.title}</h2></a>
+                            <a href='.'><h2 className='title'>{post.title}</h2></a>
                             <p className='description'>{post.description}</p>
                         </div>
                     </Card>

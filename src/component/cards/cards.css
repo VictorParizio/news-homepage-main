@@ -7,7 +7,7 @@
 
 .card-list span {
     font-size: 3rem;
-    color: var(--font-count);
+    color: var(--font-new);
     font-weight: 700;
     margin-bottom: 15px;
 }

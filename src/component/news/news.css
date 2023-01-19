@@ -1,0 +1,27 @@
+.new-list {
+    background-color: var(--contrast-default);
+    color: var(--font-new);
+    padding: 30px;
+    width: 360px;
+}
+
+.new-list .header {
+    color: var(--contrast-new);
+    font-size: 3.8rem;
+}
+
+.new-list .new .title {
+    font-size: 1.8rem;
+    color: var(--background);
+    margin-bottom: 15px;
+}
+
+.new-list .new .title:hover {
+    cursor: pointer;
+    color: var(--contrast-new);
+}
+
+.new-list .new .description {
+    font-size: 1.5rem;
+    line-height: 24px;
+}
