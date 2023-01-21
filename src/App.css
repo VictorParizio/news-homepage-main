@@ -2,17 +2,29 @@
 
 * {
     font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
+    list-style: none;
 }
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100%;
     padding: 30px;
+}
+
+#root {
+    display: grid;
+    grid:
+    "navbar navbar navbar"
+    " hero hero news"
+    "Popular Popular Popular"
+    / 1fr 1fr 1fr;
+    gap: 70px 28px;
 }
 
 a {

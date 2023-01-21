@@ -4,7 +4,7 @@ import banner from '../../images/image-web-3-desktop.jpg'
 
 const Banner = () => {
     return (
-        <section>
+        <section className='hero'>
             <img src={banner} alt='' className='banner' />
             <div className='container'>
                 <h1 className='title'>The Bright Future of Web 3.0?</h1>

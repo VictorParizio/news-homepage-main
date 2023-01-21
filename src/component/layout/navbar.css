@@ -1,0 +1,15 @@
+.navbar, ul{
+    grid-area: navbar;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu li a{
+    font-size: 1.8rem;
+}
+
+.menu li a:hover{
+    color: var(--contrast-popular);
+}

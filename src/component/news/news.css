@@ -1,19 +1,20 @@
 .new-list {
     background-color: var(--contrast-default);
     color: var(--font-new);
-    padding: 30px;
-    width: 360px;
+    padding: 25px;
+    width: 350px;
+    grid-area: news;
 }
 
 .new-list .header {
     color: var(--contrast-new);
-    font-size: 3.8rem;
+    font-size: 4rem;
 }
 
 .new-list .new .title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--background);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .new-list .new .title:hover {
@@ -23,5 +24,5 @@
 
 .new-list .new .description {
     font-size: 1.5rem;
-    line-height: 24px;
+    line-height: 26px;
 }

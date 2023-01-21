@@ -5,7 +5,7 @@ import pcRetro from '../../images/image-retro-pcs.jpg'
 import topLaptops from '../../images/image-top-laptops.jpg'
 import gamingGrowth from '../../images/image-gaming-growth.jpg'
 
-const postList = [
+const cardtList = [
     {
         id: "01",
         img: pcRetro,
@@ -29,17 +29,17 @@ const postList = [
     }
 ]
 
-const Cards = () => {
+const Popular = () => {
     return (
         <div className="card-list">
-            {postList.map((post, index) => {
+            {cardtList.map((card, index) => {
                 return (
                     <Card key={index}>
-                        <img src={post.img} alt={post.alt} />
+                        <img src={card.img} alt={card.alt} />
                         <div>
-                            <span>{post.id}</span>
-                            <a href='.'><h2 className='title'>{post.title}</h2></a>
-                            <p className='description'>{post.description}</p>
+                            <span>{card.id}</span>
+                            <a href='.'><h2 className='title'>{card.title}</h2></a>
+                            <p className='description'>{card.description}</p>
                         </div>
                     </Card>
                 )
@@ -48,4 +48,4 @@ const Cards = () => {
     )
 }
 
-export default Cards
+export default Popular

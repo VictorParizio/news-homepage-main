@@ -1,8 +1,10 @@
 .card-list {
     display: flex;
     align-items: center;
-    gap: 30px 25px;
+    justify-content: space-between;
+    gap: 30px 0;
     flex-wrap: wrap;
+    grid-area: Popular;
 }
 
 .card-list span {
@@ -26,4 +28,5 @@
 .card-list .description {
     color: var(--font-default);
     line-height: 25px;
+    width: 225px;
 }
