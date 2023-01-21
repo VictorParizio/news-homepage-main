@@ -1,0 +1,15 @@
+.attribution {
+    grid-area: footer;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--contrast-default);
+}
+
+.attribution a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.attribution a:hover {
+    color: var(--contrast-popular);
+}

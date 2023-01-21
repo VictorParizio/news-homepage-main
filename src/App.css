@@ -23,6 +23,7 @@ body {
     "navbar navbar navbar"
     " hero hero news"
     "Popular Popular Popular"
+    "footer footer footer"
     / 1fr 1fr 1fr;
     gap: 70px 28px;
 }
