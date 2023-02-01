@@ -5,6 +5,10 @@
     color: var(--contrast-default);
 }
 
+.attribution p {
+    display: inline;
+}
+
 .attribution a {
     font-size: 1.5rem;
     font-weight: 700;
@@ -12,4 +16,10 @@
 
 .attribution a:hover {
     color: var(--contrast-popular);
+}
+
+@media (max-width: 789px) {
+    .attribution p {
+        display: block;
+    }
 }

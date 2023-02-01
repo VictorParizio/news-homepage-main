@@ -1,7 +1,7 @@
 import './button.css'
 
 const Button = () => {
-    return <button>Read more</button>
+    return <a className='button' href='/'>Read more</a>
 }
 
 export default Button

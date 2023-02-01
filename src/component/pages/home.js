@@ -1,4 +1,4 @@
-import Banner from "../banner/banner"
+import Banner from "../hero/hero"
 import News from "../news/news"
 import Popular from "../cards/cards"
 

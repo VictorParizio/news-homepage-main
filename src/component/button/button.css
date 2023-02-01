@@ -1,4 +1,4 @@
-button {
+.button {
     background-color: var(--contrast-popular);
     color: var(--background);
     border: none;
@@ -8,9 +8,11 @@ button {
     font-weight: 700;
     letter-spacing: 5px;
     margin-top: 36px;
+    user-select: none;
+    display: inline-block;
 }
 
-button:hover{
+.button:hover {
     cursor: pointer;
     background-color: var(--contrast-default);
 }

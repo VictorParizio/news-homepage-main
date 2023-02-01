@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './component/layout/navbar';
+import Header from './component/layout/header';
 import Home from './component/pages/home'
 import New from './component/pages/new'
 import Popular from './component/pages/popular'
@@ -12,7 +12,7 @@ import Footer from './component/layout/footer';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/new" element={<New />} />

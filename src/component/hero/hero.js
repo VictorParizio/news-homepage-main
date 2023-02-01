@@ -1,11 +1,16 @@
+import bannerDescktop from '../../images/image-web-3-desktop.jpg'
+import bannerMobile from '../../images/image-web-3-mobile.jpg'
 import Button from '../button/button'
-import './banner.css'
-import banner from '../../images/image-web-3-desktop.jpg'
+import './hero.css'
 
 const Banner = () => {
     return (
         <section className='hero'>
-            <img src={banner} alt='' className='banner' />
+            <picture>
+                <source srcSet={bannerMobile} alt='banner web 3' media='(max-width: 789px)' />
+
+                <img src={bannerDescktop} alt='banner web 3' className='banner' />
+            </picture>
             <div className='container'>
                 <h1 className='title'>The Bright Future of Web 3.0?</h1>
                 <div className='description'>

@@ -1,15 +1,21 @@
-.navbar, ul{
-    grid-area: navbar;
+.header {
+    grid-area: header;
+    max-width: 1110px;
+}
+
+.header,
+ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
 
-.menu li a{
+.header .menu li a {
     font-size: 1.8rem;
 }
 
-.menu li a:hover{
+.header .menu li a:hover {
     color: var(--contrast-popular);
 }
+
