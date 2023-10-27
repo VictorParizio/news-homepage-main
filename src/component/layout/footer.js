@@ -2,10 +2,13 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div className="attribution">
-            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. </p>
-            <p>Coded by <a href="/">Victor Parizio</a>.</p>
-        </div>
+        <footer>
+            <div class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io/profile/VictorParizio" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://www.linkedin.com/in/victorpariziobackend/" target="_blank">Victor Parizio</a>.
+            </div>
+        </footer>
     )
 }
 
